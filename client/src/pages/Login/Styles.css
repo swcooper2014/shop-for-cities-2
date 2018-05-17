@@ -1,0 +1,32 @@
+body {
+	background-image: url("../../Images/homePageBackground.jpg");
+	max-width: 100%;
+    background-color:#bebdc7;
+	background-repeat:no-repeat;
+	background-size:cover;
+	color: rgba(62, 60, 67, .5);
+}
+
+.box {
+	background-color: rgba(62,60, 67, .5);
+	width: 100%;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 200px;
+	padding-right:200px;
+	padding-bottom:200px;
+	padding-left:200px;
+	border-radius: 12px;
+}
+
+.searchbutton:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.searchbutton {
+	position: relative;
+	top: 5px;
+	left: -12px;
+	margin-left: 10px;
+}
